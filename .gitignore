@@ -1,0 +1,21 @@
+
+# Bases de datos locales DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Archivos de datos
+data/raw/
+data/processed/
+notebooks/data/raw/
+notebooks/data/processed/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
